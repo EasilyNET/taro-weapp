@@ -1,0 +1,14 @@
+dist/
+deploy_versions/
+.temp/
+.rn_temp/
+node_modules/
+.DS_Store
+.swc
+
+# yarn
+.yarn/cache
+yarn.lock
+package-lock.json
+.yarn/install-state.gz
+.yarn/build-state.yml
