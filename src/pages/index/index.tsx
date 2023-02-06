@@ -1,24 +1,29 @@
-import { Component, PropsWithChildren } from 'react'
-import { View, Text } from '@tarojs/components'
-import './index.less'
+import "./index.less";
 
-export default class Index extends Component<PropsWithChildren> {
+import React, { useEffect } from "react";
 
-  componentWillMount () { }
+import { Button } from "@antmjs/vantui";
+import { View } from "@tarojs/components";
 
-  componentDidMount () { }
+const Index: React.FC = () => {
+  useEffect(() => {
+    console.log("test");
+  });
 
-  componentWillUnmount () { }
+  const defClick = () => {
+    console.log("default");
+  };
 
-  componentDidShow () { }
-
-  componentDidHide () { }
-
-  render () {
-    return (
-      <View className='index'>
-        <Text>Hello world!</Text>
-      </View>
-    )
-  }
-}
+  return (
+    <View>
+      <Button type="default" onClick={defClick}>
+        默认按钮
+      </Button>
+      <Button type="primary">主要按钮</Button>
+      <Button type="info">信息按钮</Button>
+      <Button type="warning">警告按钮</Button>
+      <Button type="danger">危险按钮</Button>
+    </View>
+  );
+};
+export default Index;

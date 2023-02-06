@@ -1,7 +1,7 @@
 {
   "miniprogramRoot": "./dist",
-  "projectname": "myApp",
-  "description": "test",
+  "projectname": "taro-covid-19",
+  "description": "taro-covid-19",
   "appid": "touristappid",
   "setting": {
     "urlCheck": true,

@@ -1,18 +1,9 @@
-import { Component, PropsWithChildren } from 'react'
-import './app.less'
+import "./app.less";
 
-class App extends Component<PropsWithChildren> {
+import React from "react";
 
-  componentDidMount () {}
-
-  componentDidShow () {}
-
-  componentDidHide () {}
-
-  render () {
-    // this.props.children 是将要会渲染的页面
-    return this.props.children
-  }
-}
-
-export default App
+const App: React.FC = (props: any) => {
+  // this.props.children 是将要会渲染的页面
+  return props.children;
+};
+export default App;
