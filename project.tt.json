@@ -1,6 +1,6 @@
 {
   "miniprogramRoot": "./",
-  "projectname": "taro-covid-19",
+  "projectname": "taro-weapp",
   "appid": "testAppId",
   "setting": {
     "es6": false,

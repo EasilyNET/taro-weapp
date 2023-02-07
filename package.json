@@ -1,10 +1,10 @@
 {
-  "name": "taro-covid-19",
+  "name": "taro-weapp",
   "version": "1.0.0",
   "private": true,
-  "description": "taro-covid-19",
+  "description": "taro-weapp",
   "templateInfo": {
-    "name": "taro-covid-19",
+    "name": "taro-weapp",
     "typescript": true,
     "css": "less"
   },
